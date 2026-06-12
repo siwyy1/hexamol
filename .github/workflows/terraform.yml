@@ -22,7 +22,7 @@ jobs:
 
       - uses: google-github-actions/auth@v3
         with:
-          workload_identity_provider: iam.googleapis.com/projects/875930234432/locations/global/workloadIdentityPools/github/providers/github-provider
+          workload_identity_provider: projects/875930234432/locations/global/workloadIdentityPools/github/providers/github-provider
           service_account: terraform@hexamol.iam.gserviceaccount.com
 
       - name: Setup Terraform
